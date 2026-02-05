@@ -31,7 +31,7 @@ export default function Header() {
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => window.location.reload()}>
-                        <img src="/logo.png" alt="elbufalo" className="h-24 w-auto object-contain" />
+                        <img src="/logo.png" alt="elbufalo" className="h-16 w-auto object-contain" />
                     </div>
 
                     {/* Desktop Menu */}

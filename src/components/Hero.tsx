@@ -2,7 +2,7 @@ import heroBg from '../assets/hero_patagonia_background.png';
 
 export default function Hero() {
     return (
-        <section id="inicio" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <section id="inicio" className="relative min-h-screen flex items-center pt-32 overflow-hidden">
             {/* Background Image with Overlay */}
             <div className="absolute inset-0">
                 <img
@@ -27,7 +27,7 @@ export default function Hero() {
                             Agencia de IA para Turismo en Argentina
                         </span>
 
-                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-tight tracking-tight">
+                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
                             Potenciamos tu negocio turístico con
                             <span className="text-gradient"> soluciones inteligentes</span>
                         </h1>
