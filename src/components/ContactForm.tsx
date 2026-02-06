@@ -45,16 +45,16 @@ export default function ContactForm() {
                 <div className="flex flex-col lg:flex-row gap-12 items-center">
 
                     {/* Left Side - Info */}
-                    <div className="lg:w-1/2">
+                    <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
                         <h2 className="text-4xl md:text-5xl font-black text-white mb-6 tracking-tight leading-tight">
                             ¿Listo para<br /> empezar?
                         </h2>
 
-                        <p className="text-slate-400 text-lg mb-8 leading-relaxed max-w-lg">
+                        <p className="text-slate-400 text-lg mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
                             Dejanos tus datos y te contactamos para conversar sobre cómo podemos ayudar a tu negocio turístico.
                         </p>
 
-                        <div className="mb-8">
+                        <div className="mb-8 w-full">
                             <p className="text-white font-bold text-base mb-3">
                                 Contacto rápido por WhatsApp
                             </p>
@@ -68,7 +68,7 @@ export default function ContactForm() {
                             </a>
                         </div>
 
-                        <div>
+                        <div className="w-full">
                             <p className="text-white font-bold text-base mb-3">
                                 O envianos un email
                             </p>

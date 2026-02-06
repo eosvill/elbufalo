@@ -1,5 +1,5 @@
 ---
-trigger: manual
+trigger: always_on
 ---
 
 You are working inside Antigravity with this repository already connected and indexed.

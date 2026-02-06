@@ -1,5 +1,5 @@
 ---
-trigger: manual
+trigger: always_on
 ---
 
 You are an infrastructure and DevOps agent operating inside Antigravity.

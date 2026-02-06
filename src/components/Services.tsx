@@ -18,14 +18,7 @@ export default function Services() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                     {/* Main Featured Card */}
                     <div className="md:col-span-3 bg-[#0ea5e9] rounded-3xl p-8 md:p-12 relative overflow-hidden group">
-                        {/* Background Image with fade */}
-                        <div className="absolute inset-0 z-0">
-                            <img
-                                src="/services-mockup.png"
-                                alt="Travel Website Background"
-                                className="w-full h-full object-cover opacity-90 [mask-image:linear-gradient(to_right,transparent_40%,black_100%)] object-right"
-                            />
-                        </div>
+
 
                         <div className="relative z-10 max-w-2xl">
                             <div className="inline-block bg-[#f97316] text-white text-xs font-bold px-4 py-2 rounded-full mb-6 uppercase tracking-wide shadow-sm">
